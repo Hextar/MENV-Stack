@@ -1,0 +1,27 @@
+$primary: '#1a6094';
+$secondary: '#22d1ca';
+$accent: '#22d1ca';
+$success: '#3cd1c2';
+$info: '#3cd1c2';
+$warning: '#f58223';
+$error: '#f83e70';
+
+.svg-icon {
+  &:hover {
+    opacity: .5;
+  }
+}
+
+.debug {
+  .debug-1 {
+    border: 1px solid red;
+  }
+
+  .debug-2 {
+    border: 1px solid blue;
+  }
+
+  .debug-3 {
+    border: 1px solid green;
+  }
+}
